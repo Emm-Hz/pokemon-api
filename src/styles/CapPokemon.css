@@ -1,0 +1,40 @@
+@import url('./root.css');
+
+.form-pokemon {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin: auto;
+    padding-block: 2rem;
+}
+
+.input-name {
+    padding: .2rem;
+    width: 50vw;
+    height: 2rem;
+    border-radius: .2rem 0 0 .2rem;
+    -webkit-border-radius: .2rem 0 0 .2rem;
+    -moz-border-radius: .2rem 0 0 .2rem;
+    -ms-border-radius: .2rem 0 0 .2rem;
+    -o-border-radius: .2rem 0 0 .2rem;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.input-button {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.2rem;
+    border-radius: 0 .2rem .2rem 0;
+    -webkit-border-radius: 0 .2rem .2rem 0;
+    -moz-border-radius: 0 .2rem .2rem 0;
+    -ms-border-radius: 0 .2rem .2rem 0;
+    -o-border-radius: 0 .2rem .2rem 0;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.input-button:active {
+    background-color: var(--complement-color);
+}
